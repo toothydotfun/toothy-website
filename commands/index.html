@@ -140,7 +140,7 @@ function myFunction() {
 <ul><li><details><summary><b>!hub</b></summary>
 <b>This allows you to teleport to The Hub. The Hub is located in a custom dimension added via a data-pack, and is intended for trading with other players. At the Hub, you can find multiple villagers to trade with, should you need materials for your base or your skyblock island (you can spawn an island by typing !skyblock).</b></details></li>
 <li><details><summary><b>!sethome <i>name</i></b></summary>
-<b>This functions like /sethome on Spigot servers. You may have up to 11 homes. To set a home, type <i>!sethome</i> followed by the name of the home (example: <i>!sethome mineshaft</i> sets a home called "mineshaft"). Teleport to a home by typing <i>!home</i> and specifying its name (example: <i>!home mineshaft</i> teleports you to a home called "mineshaft," if one is set).  Additional home commands include; <i>!delhome</i> (deletes a home, but you must specify the name of the home you'd like to delete), <i>!listhomes</i> (lists all homes and their coordinates), <i>!undo</i> (useful if you accidentally overwrite a home), and <i>!color homes</i> (donor only. Changes the color of the home text in chat). You must be at full health in order to teleport to a home (this is to prevent tp'ing away in combat). Thanks to djie for writing the homes data pack for Echoes. <a href="https://github.com/hqics/homes" target="_blank" rel="noopener">You can check out his Github page by clicking here.</a></b></details></li>
+<b>This functions like /sethome on Spigot servers. You may have up to 11 homes. To set a home, type <i>!sethome</i> followed by the name of the home (example: <i>!sethome mineshaft</i> sets a home called "mineshaft"). Teleport to a home by typing <i>!home</i> and specifying its name (example: <i>!home mineshaft</i> teleports you to a home called "mineshaft," if one is set).  Additional home commands include; <i>!delhome</i> (deletes a home, but you must specify the name of the home you'd like to delete), <i>!listhomes</i> (lists all homes and their coordinates), <i>!undo</i> (useful if you accidentally overwrite a home), and <i>!color homes</i> (Changes the color of the home text in chat). You must be at full health in order to teleport to a home (this is to prevent tp'ing away in combat). Thanks to djie for writing the homes data pack for Echoes. <a href="https://github.com/hqics/homes" target="_blank" rel="noopener">You can check out his Github page by clicking here.</a></b></details></li>
 <li><details><summary><b>!spaceship</b></summary>
 <b>Spawns in a space ship for you, in the space dimension. You must farm certain materials in order to spawn a space ship (lots of quartz, obsidian, a respawn anchor, lightning rod, etc. Type <i>!spaceship</i> or <i>!skyblock</i> in-game to see a full list of materials). After successfully executing this command, the player "blasts off" into space, complete with flame & smoke particles, a speedy levitation effect, and explosion sounds. Each space ship is piloted by an axolotl and comes equipped with basic survival materials.</b></details></li>
 </ul>
@@ -345,6 +345,19 @@ function myFunction() {
 <b>Gives you a rainbow trail and a pink username. To remove, type <i>!ungay</i>.</b></details></li>
 <li><details><summary><b>!hat <i>block name or item name</i></b></summary>
 <b>Puts the specified item or block on your head. It even works with helmets. Type !rhat or !unhat to remove the block from your head.</b></details></li>
+<ul><li><details><summary><b>!pushable <i>block name</i></b></summary>
+<b>Summons a block of the specified type that you can push around. To remove the block, stand on top of it and type !unpushable.</b></details></li>
+<li><details><summary><b>!color <i>color</i></b></summary>
+<b>Sets your username to the specified color. Available colors consist only of those in Minecraft by default, i.e. <i>!color dark_aqua</i>.</b></details></li>
+<li><details><summary><b>!armorstand <i>name</i> <i>color</i></b></summary>
+<b>Summons an armor stand with the specified name and name color. These armor stands have arms. There's a 10 minute cooldown on this command.</b></i></details></li>
+<li><details><summary><b>!greeting set <i>message</i></b></summary>
+<b>Sets a custom greeting message. The message can be whatever you want. _saltshaker will display whatever greeting message you've set whenever you login. Example: <i>!greeting set welcome back to Echoes!</b></i></details></li>
+<li><details><summary><b>!motd set <i>message</i></b></summary>
+<b>Changes the server's MOTD, as viewed from the Minecraft client's multiplayer menu. The message can be whatever you want, as long as it's under 100 characters. _saltshaker will automatically revert the MOTD every 2 hours. Example: <i>!motd set the admins are giving out 32ks to whoever DMs them fart porn on Discord!</b></i></details></li>
+<li><details><summary><b>!sexpig</b></summary>
+<b>Summons the Sex Pig at your current location.</b></i></details></li>
+
 </ul>
 <i></i>
 <a name="prefixes"></a>
@@ -413,26 +426,5 @@ function myFunction() {
 <li>!smallcock</li>
 <li>!wifebeater</li>
 
-</ul>
-<i></i>
-<a name="donor"></a>
-<b>Donor Commands</b>
-<h5><b>Echoes relies on our Patreon supporters to stay afloat. Only donors can use the commands below. To read more about the perks that come with patronage,  <a href="https://echoes.fun/donate" target="_blank" rel="noopener">click here</a>.</b></h5>
-<p></p>
-<a href="https://www.patreon.com/bePatron?u=54013358" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-<i></i>
-<ul><li><details><summary><b>!pushable <i>block name</i></b></summary>
-<b>Summons a block of the specified type that you can push around. To remove the block, stand on top of it and type !unpushable.</b></details></li>
-<li><details><summary><b>!color <i>color</i></b></summary>
-<b>Sets your username to the specified color. Available colors consist only of those in Minecraft by default, i.e. <i>!color dark_aqua</i>.</b></details></li>
-<li><details><summary><b>!armorstand <i>name</i> <i>color</i></b></summary>
-<b>Summons an armor stand with the specified name and name color. These armor stands have arms. There's a 10 minute cooldown on this command.</b></i></details></li>
-<li><details><summary><b>!greeting set <i>message</i></b></summary>
-<b>Sets a custom greeting message. The message can be whatever you want. _saltshaker will display whatever greeting message you've set whenever you login. Example: <i>!greeting set welcome back to Echoes!</b></i></details></li>
-<li><details><summary><b>!motd set <i>message</i></b></summary>
-<b>Changes the server's MOTD, as viewed from the Minecraft client's multiplayer menu. The message can be whatever you want, as long as it's under 100 characters. _saltshaker will automatically revert the MOTD every 2 hours. Example: <i>!motd set the admins are giving out 32ks to whoever DMs them fart porn on Discord!</b></i></details></li>
-<li><details><summary><b>!donorland</b></summary>
-<b>Teleports you to a very pretty custom dimension called Donorland. Only donors can visit this dimension; non-donors are teleported out</b></details></li>
-<i></i>
 </ul>
 </html>
