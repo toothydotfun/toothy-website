@@ -104,6 +104,27 @@ p {font-family:Courier, sans-serif;font-size:14px;font-style:normal;font-weight:
   /* Add a grey background color to the table header and on hover */
   background-color: #70EFE6;
 }
+.button1 {
+                    display: inline-block;
+                    outline: none;
+                    cursor: pointer;
+                    border-radius: 3px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    padding: 2px 16px;
+                    height: 38px;
+                    min-width: 96px;
+                    min-height: 38px;
+                    border: none;
+                    color: #fff;
+                    background-color: rgb(88, 101, 242);
+                    transition: background-color .17s ease,color .17s ease;
+                    :hover {
+                        background-color: rgb(71, 82, 196);
+                    }
+                  }
+
 </style>
 <script>
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -158,9 +179,9 @@ Below is a mostly-complete list of vote links for both Echoes servers. <u>As of 
 
 </ul>
 <p></p>
-<center><h3><strong><form action="https://files.echoes.fun/discord">
+<center><h3><strong><button class="button1" action="https://files.echoes.fun/discord">
     <input type="submit" value="Click here to join the Echoes discord and make some friends." />
-</form></center><p></p>
+</button></center><p></p>
 
 
 
